@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<style>
+		h1 {
+			text-align: center;
+		}
+		form {
+			text-align: center;
+		}
+		input {
+			margin: 10px auto;
+			display: block;
+		}
+		button {
+			margin: 10px;
+		}
+	</style>
+	</head>
+	<body>
+		<h1>Please login</h1>
+		<form action="/login" method="POST">
+			<label>Username</label>
+			<input type="text" name="username" required>
+			<label>Password</label>
+			<input type="password" name="password" required>
+			<button type="submit">Login</button>
+			</form>
+	</body>
+</html>
